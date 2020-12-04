@@ -1,0 +1,11 @@
+# Ignore virtual environment
+*_venv/
+
+# Ignore vscode settings
+.vscode/
+
+# Ignore pycharm settings folder
+.idea/
+
+# Ignore pycache files
+*.pyc
