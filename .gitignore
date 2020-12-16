@@ -9,3 +9,6 @@
 
 # Ignore pycache files
 *.pyc
+
+# Ignore env files
+.env

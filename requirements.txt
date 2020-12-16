@@ -3,3 +3,7 @@ uvicorn
 httpx
 jinja2
 aiofiles
+
+starlette
+pydantic
+python-dotenv
