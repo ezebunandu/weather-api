@@ -4,11 +4,13 @@ import requests
 def report_event():
     desc = input("What event do you want to report? ")
     city = input("What city? ")
+    country = input("What country is the city? ")
 
     data = {
         "description": desc,
         "location": {
-            "city": city
+            "city": city,
+            "country": country
         }
     }
 
@@ -40,7 +42,7 @@ def main():
         else:
             print(f"Invalid option {choice}.")
 
-        choice = input("[R]eport weather or [S]see reports? ")
+        choice = input("[R]eport weather or [S]ee reports? ")
 
 
 if __name__ == "__main__":
