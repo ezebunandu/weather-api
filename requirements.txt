@@ -6,4 +6,4 @@ aiofiles
 
 starlette
 pydantic
-python-dotenv
+requests

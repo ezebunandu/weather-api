@@ -1,1 +1,2 @@
 python-dotenv
+-r requirements.txt
